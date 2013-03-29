@@ -10,7 +10,10 @@ $composer_autoload = __DIR__. DS . 'vendor/autoload.php';
 
 include "$composer_autoload";
 
-
+//-------------------- Linguagem
+$o = new \Lang\lang();
+echo $o->_t('all');
+echo $o->_t('Select');
 
 //-------------------- form
 $obj = new HTML\Form('post','','','');

@@ -77,15 +77,7 @@ class Form
           return count($this->fields);
      }
 
-    /**
-     * addField
-     * 
-     * @param mixed \array whit data to generate HTML of form.
-     *
-     * @access public
-     *
-     * @return mixed Value.
-     */
+
      public function addField(array $inputData)
      {
           $this->fields[] = $inputData;
